@@ -3,7 +3,7 @@ import Backendless from "../lib/backendless";
 
 export interface BlogPost {
   objectId?: string;
-  post_id: string;
+  post_id?: string;
   title: string;
   intro: string;
   content: string;
