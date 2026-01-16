@@ -35,18 +35,6 @@ const Footer = () => {
                 <SiShopee size={24} />
               </a>
               <a
-                href="https://www.tokopedia.com/gurihya/product"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-[#00AA5B] transition duration-300"
-              >
-                <img
-                  src="/public/tokped-icon.png"
-                  alt="Tokopedia"
-                  className="w-6 h-6 grayscale hover:grayscale-0 transition duration-300"
-                />
-              </a>
-              <a
                 href="https://www.instagram.com/gurihya/"
                 target="_blank"
                 rel="noopener noreferrer"
