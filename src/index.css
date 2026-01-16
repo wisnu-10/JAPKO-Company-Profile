@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-spice-gold: #ffc000; 
+  --color-spice-red: #cc3300; 
+  --color-spice-brown: #8b4513; 
+  --color-spice-green: #556b2f; 
+  --color-spice-cream: #fff8dc; 
+  --color-spice-dark: #2f1b0c; 
+}
+
+@layer base {
+  body {
+    background-color: var(--color-spice-cream);
+    color: var(--color-spice-dark);
+    font-family: "Inter", sans-serif;
+  }
+}
